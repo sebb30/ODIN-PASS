@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C03692D2BEF63FB0027AE1A /* ODIN_PASSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03692C2BEF63FB0027AE1A /* ODIN_PASSApp.swift */; };
+		0C03692F2BEF63FB0027AE1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03692E2BEF63FB0027AE1A /* ContentView.swift */; };
+		0C0369312BEF63FD0027AE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0369302BEF63FD0027AE1A /* Assets.xcassets */; };
+		0C0369342BEF63FD0027AE1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0369332BEF63FD0027AE1A /* Preview Assets.xcassets */; };
+		0C03693E2BEF63FD0027AE1A /* ODIN_PASSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03693D2BEF63FD0027AE1A /* ODIN_PASSTests.swift */; };
+		0C0369482BEF63FD0027AE1A /* ODIN_PASSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0369472BEF63FD0027AE1A /* ODIN_PASSUITests.swift */; };
+		0C03694A2BEF63FD0027AE1A /* ODIN_PASSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0369492BEF63FD0027AE1A /* ODIN_PASSUITestsLaunchTests.swift */; };
+		0C0369572BF112340027AE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0369562BF112340027AE1A /* AppDelegate.swift */; };
+		0CB0CBB32C4294B6004FA461 /* deleted content 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0CBB22C4294B6004FA461 /* deleted content 1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C03693A2BEF63FD0027AE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C0369212BEF63FB0027AE1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C0369282BEF63FB0027AE1A;
+			remoteInfo = "ODIN PASS";
+		};
+		0C0369442BEF63FD0027AE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C0369212BEF63FB0027AE1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C0369282BEF63FB0027AE1A;
+			remoteInfo = "ODIN PASS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0369292BEF63FB0027AE1A /* ODIN PASS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ODIN PASS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C03692C2BEF63FB0027AE1A /* ODIN_PASSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODIN_PASSApp.swift; sourceTree = "<group>"; };
+		0C03692E2BEF63FB0027AE1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C0369302BEF63FD0027AE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C0369332BEF63FD0027AE1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C0369392BEF63FD0027AE1A /* ODIN PASSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ODIN PASSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C03693D2BEF63FD0027AE1A /* ODIN_PASSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODIN_PASSTests.swift; sourceTree = "<group>"; };
+		0C0369432BEF63FD0027AE1A /* ODIN PASSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ODIN PASSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C0369472BEF63FD0027AE1A /* ODIN_PASSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODIN_PASSUITests.swift; sourceTree = "<group>"; };
+		0C0369492BEF63FD0027AE1A /* ODIN_PASSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODIN_PASSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C0369562BF112340027AE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CB0CBB22C4294B6004FA461 /* deleted content 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "deleted content 1.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C0369262BEF63FB0027AE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0369362BEF63FD0027AE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0369402BEF63FD0027AE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0369202BEF63FB0027AE1A = {
+			isa = PBXGroup;
+			children = (
+				0C03692B2BEF63FB0027AE1A /* ODIN PASS */,
+				0C03693C2BEF63FD0027AE1A /* ODIN PASSTests */,
+				0C0369462BEF63FD0027AE1A /* ODIN PASSUITests */,
+				0C03692A2BEF63FB0027AE1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C03692A2BEF63FB0027AE1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C0369292BEF63FB0027AE1A /* ODIN PASS.app */,
+				0C0369392BEF63FD0027AE1A /* ODIN PASSTests.xctest */,
+				0C0369432BEF63FD0027AE1A /* ODIN PASSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C03692B2BEF63FB0027AE1A /* ODIN PASS */ = {
+			isa = PBXGroup;
+			children = (
+				0C03692C2BEF63FB0027AE1A /* ODIN_PASSApp.swift */,
+				0C0369562BF112340027AE1A /* AppDelegate.swift */,
+				0C03692E2BEF63FB0027AE1A /* ContentView.swift */,
+				0CB0CBB22C4294B6004FA461 /* deleted content 1.swift */,
+				0C0369302BEF63FD0027AE1A /* Assets.xcassets */,
+				0C0369322BEF63FD0027AE1A /* Preview Content */,
+			);
+			path = "ODIN PASS";
+			sourceTree = "<group>";
+		};
+		0C0369322BEF63FD0027AE1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0C0369332BEF63FD0027AE1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C03693C2BEF63FD0027AE1A /* ODIN PASSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C03693D2BEF63FD0027AE1A /* ODIN_PASSTests.swift */,
+			);
+			path = "ODIN PASSTests";
+			sourceTree = "<group>";
+		};
+		0C0369462BEF63FD0027AE1A /* ODIN PASSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C0369472BEF63FD0027AE1A /* ODIN_PASSUITests.swift */,
+				0C0369492BEF63FD0027AE1A /* ODIN_PASSUITestsLaunchTests.swift */,
+			);
+			path = "ODIN PASSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C0369282BEF63FB0027AE1A /* ODIN PASS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C03694D2BEF63FD0027AE1A /* Build configuration list for PBXNativeTarget "ODIN PASS" */;
+			buildPhases = (
+				0C0369252BEF63FB0027AE1A /* Sources */,
+				0C0369262BEF63FB0027AE1A /* Frameworks */,
+				0C0369272BEF63FB0027AE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ODIN PASS";
+			productName = "ODIN PASS";
+			productReference = 0C0369292BEF63FB0027AE1A /* ODIN PASS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C0369382BEF63FD0027AE1A /* ODIN PASSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C0369502BEF63FD0027AE1A /* Build configuration list for PBXNativeTarget "ODIN PASSTests" */;
+			buildPhases = (
+				0C0369352BEF63FD0027AE1A /* Sources */,
+				0C0369362BEF63FD0027AE1A /* Frameworks */,
+				0C0369372BEF63FD0027AE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C03693B2BEF63FD0027AE1A /* PBXTargetDependency */,
+			);
+			name = "ODIN PASSTests";
+			productName = "ODIN PASSTests";
+			productReference = 0C0369392BEF63FD0027AE1A /* ODIN PASSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C0369422BEF63FD0027AE1A /* ODIN PASSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C0369532BEF63FD0027AE1A /* Build configuration list for PBXNativeTarget "ODIN PASSUITests" */;
+			buildPhases = (
+				0C03693F2BEF63FD0027AE1A /* Sources */,
+				0C0369402BEF63FD0027AE1A /* Frameworks */,
+				0C0369412BEF63FD0027AE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C0369452BEF63FD0027AE1A /* PBXTargetDependency */,
+			);
+			name = "ODIN PASSUITests";
+			productName = "ODIN PASSUITests";
+			productReference = 0C0369432BEF63FD0027AE1A /* ODIN PASSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C0369212BEF63FB0027AE1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					0C0369282BEF63FB0027AE1A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0C0369382BEF63FD0027AE1A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0C0369282BEF63FB0027AE1A;
+					};
+					0C0369422BEF63FD0027AE1A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0C0369282BEF63FB0027AE1A;
+					};
+				};
+			};
+			buildConfigurationList = 0C0369242BEF63FB0027AE1A /* Build configuration list for PBXProject "ODIN PASS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C0369202BEF63FB0027AE1A;
+			productRefGroup = 0C03692A2BEF63FB0027AE1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C0369282BEF63FB0027AE1A /* ODIN PASS */,
+				0C0369382BEF63FD0027AE1A /* ODIN PASSTests */,
+				0C0369422BEF63FD0027AE1A /* ODIN PASSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C0369272BEF63FB0027AE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0369342BEF63FD0027AE1A /* Preview Assets.xcassets in Resources */,
+				0C0369312BEF63FD0027AE1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0369372BEF63FD0027AE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0369412BEF63FD0027AE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C0369252BEF63FB0027AE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0369572BF112340027AE1A /* AppDelegate.swift in Sources */,
+				0CB0CBB32C4294B6004FA461 /* deleted content 1.swift in Sources */,
+				0C03692F2BEF63FB0027AE1A /* ContentView.swift in Sources */,
+				0C03692D2BEF63FB0027AE1A /* ODIN_PASSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0369352BEF63FD0027AE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C03693E2BEF63FD0027AE1A /* ODIN_PASSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C03693F2BEF63FD0027AE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0369482BEF63FD0027AE1A /* ODIN_PASSUITests.swift in Sources */,
+				0C03694A2BEF63FD0027AE1A /* ODIN_PASSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C03693B2BEF63FD0027AE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C0369282BEF63FB0027AE1A /* ODIN PASS */;
+			targetProxy = 0C03693A2BEF63FD0027AE1A /* PBXContainerItemProxy */;
+		};
+		0C0369452BEF63FD0027AE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C0369282BEF63FB0027AE1A /* ODIN PASS */;
+			targetProxy = 0C0369442BEF63FD0027AE1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C03694B2BEF63FD0027AE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C03694C2BEF63FD0027AE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C03694E2BEF63FD0027AE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ODIN PASS/Preview Content\"";
+				DEVELOPMENT_TEAM = KJPDCM557W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hash.ODIN-PASS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C03694F2BEF63FD0027AE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ODIN PASS/Preview Content\"";
+				DEVELOPMENT_TEAM = KJPDCM557W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hash.ODIN-PASS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C0369512BEF63FD0027AE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hash.ODIN-PASSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODIN PASS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ODIN PASS";
+			};
+			name = Debug;
+		};
+		0C0369522BEF63FD0027AE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hash.ODIN-PASSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODIN PASS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ODIN PASS";
+			};
+			name = Release;
+		};
+		0C0369542BEF63FD0027AE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hash.ODIN-PASSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ODIN PASS";
+			};
+			name = Debug;
+		};
+		0C0369552BEF63FD0027AE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hash.ODIN-PASSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ODIN PASS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C0369242BEF63FB0027AE1A /* Build configuration list for PBXProject "ODIN PASS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C03694B2BEF63FD0027AE1A /* Debug */,
+				0C03694C2BEF63FD0027AE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C03694D2BEF63FD0027AE1A /* Build configuration list for PBXNativeTarget "ODIN PASS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C03694E2BEF63FD0027AE1A /* Debug */,
+				0C03694F2BEF63FD0027AE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C0369502BEF63FD0027AE1A /* Build configuration list for PBXNativeTarget "ODIN PASSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0369512BEF63FD0027AE1A /* Debug */,
+				0C0369522BEF63FD0027AE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C0369532BEF63FD0027AE1A /* Build configuration list for PBXNativeTarget "ODIN PASSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0369542BEF63FD0027AE1A /* Debug */,
+				0C0369552BEF63FD0027AE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C0369212BEF63FB0027AE1A /* Project object */;
+}
